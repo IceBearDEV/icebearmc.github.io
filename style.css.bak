@@ -1,0 +1,173 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Arial", Helvetica, sans-serif;
+}
+i {
+    margin-top: -85vw;
+    margin-left: 40vw;
+    color: white;
+    text-shadow: -1px -1px 0px #000,1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000,-1px 1px 0 #000;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Minecraft";
+    scrollbar-color: #474747 #292929;
+}
+@font-face {
+    font-family: "MinecraftTen";
+    src: url(MinecraftTen.otf);
+}
+@font-face {
+    font-family: "Minecraft";
+    src: url(MinecraftSeven.otf);
+}
+.button {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#009147,#008542);
+    border: 0;
+    font-family: "MinecraftTen";
+    color: #fff;
+    padding: .6rem 2rem 1rem;
+    font-size: 2rem;
+    margin: 4px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-weight: 100;
+    font-style: normal;
+    text-shadow: 0 3px 0 rgba(0,0,0,.25882352941176473);
+    --border: black;
+    --top-border: #27ce40;
+    --bottom-border: #064d2a;
+    -webkit-user-select: none;
+    user-select: none;
+    box-shadow: 0 -3px 0 0 var(--top-border),0 3px 0 0 var(--bottom-border),-3px 0 0 0 #0c6e3d,3px 0 0 0 #0c6e3d,-2px -5px 0 0 var(--border),2px -5px 0 0 var(--border),-5px -2px 0 0 var(--border),5px -2px 0 0 var(--border),-2px 5px 0 0 var(--border),2px 5px 0 0 var(--border),-5px 2px 0 0 var(--border),5px 2px 0 0 var(--border);
+}
+.button:hover {
+    background: linear-gradient(#03a250,#019048);
+}
+.header {
+    background-color: #f2f0f0;
+    box-shadow: 0px 0px 5px black;
+    color: white;
+    width: 100vw;
+    height: 25px;
+    padding: 15px 0;
+    padding-top: 18px;
+    --border: black;
+    --top-border: #27ce40;
+    --bottom-border: #9e9a99;
+    box-shadow: 0 -3px 0 0 var(--top-border),0 3px 0 0 var(--bottom-border),-5px 0 0 0 #9e9a99,3px 0 0 0 #9e9a99,-2px -5px 0 0 var(--border),2px -5px 0 0 var(--border),-5px -2px 0 0 var(--border),5px -2px 0 0 var(--border),-2px 5px 0 0 var(--border),2px 5px 0 0 var(--border),-5px 2px 0 0 var(--border),5px 2px 0 0 var(--border);
+}
+.background {
+    position: absolute;
+    background-image: url("Test.jpg");
+    background-size: cover;
+    background-position: 50%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+.fill {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.482);
+}
+.logo {
+    color: black;
+    font-size: 25px;
+    margin-left: 10vw;
+    margin-top: 0vw;
+}
+.icon {
+    margin-top: -6vw;
+    margin-left: 2vw;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+.button-group {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.button-group1 {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.right {
+    margin-left: 20px;
+}
+.mc-logo {
+    max-width: 800px;
+    width: 800px;
+}
+.desc {
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-size: x-large;
+    margin-top: 50px;
+}
+/* For Mobile*/
+    @media screen and (max-width: 540px) {
+    .button {
+    margin-top: 10px;
+    min-width: 80vw;
+    font-size: 1.5rem;
+}
+.button::after {
+    color: transparent;
+    text-shadow: none;
+    content: "\n";
+}
+.right {
+    margin-left: 0;
+}
+.mc-logo {
+    width: 90vw;
+}
+.button-group, .button-group1 {
+    margin-top: 20px;
+}
+.desc {
+    margin-top: 20px;
+}
+.container {
+    top: 52.5%;
+}
+}
+/* For Tablets*/
+    @media screen and (min-width: 540px) and (max-width: 780px) {
+    .view {
+    width: 600px;
+}
+}

@@ -1,0 +1,542 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Complex Gaming | Minecraft Bedrock server</title>
+	<meta name="description" content="Complex Gaming, a Minecraft Bedrock server, located in United States of America">
+		<meta name="author" content="Listforge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/assets/css/listforge.css?rev=1.19.2">
+	<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/css/flag-icon.min.css">
+		<script type="5bd876d288c64c61e8e6e92c-text/javascript">!(function(o,n){function $(){($.q=$.q||[]).push(arguments)}$.v=1,o[n]=o[n]||$})(window,String.fromCharCode(97,100,109,105,114,97,108));!(function(t,c,i){i=t.createElement(c),t=t.getElementsByTagName(c)[0],i.async=1,i.src="https://copycarpenter.com/v2coneTnKXaUPCOvITXc0FV5ZlsqnVecdjTXlBTf17uFD1_otUgAUD1Y",t.parentNode.insertBefore(i,t)})(document,"script");;!(function(o,t,n,c){function e(n){(function(){try{return(localStorage.getItem("v4ac1eiZr0")||"").split(",")[4]>0}catch(o){}return!1})()&&(n=o[t].pubads())&&n.setTargeting("admiral-engaged","true")}(c=o[t]=o[t]||{}).cmd=c.cmd||[],typeof c.pubads===n?e():typeof c.cmd.unshift===n?c.cmd.unshift(e):c.cmd.push(e)})(window,"googletag","function");</script>
+<script nonce="d899b545-9e4d-4051-b105-794459e56af5">(function(w,d){!function(f,g,h,i){f[h]=f[h]||{};f[h].executed=[];f.zaraz={deferred:[],listeners:[]};f.zaraz.q=[];f.zaraz._f=function(j){return function(){var k=Array.prototype.slice.call(arguments);f.zaraz.q.push({m:j,a:k})}};for(const l of["track","set","debug"])f.zaraz[l]=f.zaraz._f(l);f.zaraz.init=()=>{var m=g.getElementsByTagName(i)[0],n=g.createElement(i),o=g.getElementsByTagName("title")[0];o&&(f[h].t=g.getElementsByTagName("title")[0].text);f[h].x=Math.random();f[h].w=f.screen.width;f[h].h=f.screen.height;f[h].j=f.innerHeight;f[h].e=f.innerWidth;f[h].l=f.location.href;f[h].r=g.referrer;f[h].k=f.screen.colorDepth;f[h].n=g.characterSet;f[h].o=(new Date).getTimezoneOffset();if(f.dataLayer)for(const s of Object.entries(Object.entries(dataLayer).reduce(((t,u)=>({...t[1],...u[1]})),{})))zaraz.set(s[0],s[1],{scope:"page"});f[h].q=[];for(;f.zaraz.q.length;){const v=f.zaraz.q.shift();f[h].q.push(v)}n.defer=!0;for(const w of[localStorage,sessionStorage])Object.keys(w||{}).filter((y=>y.startsWith("_zaraz_"))).forEach((x=>{try{f[h]["z_"+x.slice(7)]=JSON.parse(w.getItem(x))}catch{f[h]["z_"+x.slice(7)]=w.getItem(x)}}));n.referrerPolicy="origin";n.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(f[h])));m.parentNode.insertBefore(n,m)};["complete","interactive"].includes(g.readyState)?zaraz.init():f.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
+<body>
+<div class="menu">
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+	<a class="navbar-brand" href="/">Minecraft Bedrock Servers</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarMain">
+		<ul class="navbar-nav mr-auto d-xl-flex flex-xl-row flex-xl-wrap">
+			<li class="nav-item yourserver"><a class="nav-link" href="/your-server/"><i class="fa fa-server"></i> Your Server</a></li>
+<li class="nav-item dropdown active"><a class="nav-link dropdown-toggle" href="/" id="drop1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servers</a>
+	<div class="dropdown-menu" aria-labelledby="drop1">
+		<a class="dropdown-item" href="/">Servers By Score</a>
+		<a class="dropdown-item" href="/servers/updated/">Recently Updated</a>
+		<a class="dropdown-item" href="/servers/wiped/">Recently Wiped</a>		<a class="dropdown-item" href="/servers/latest/">Latest Servers</a>
+		<a class="dropdown-item" href="/servers/players/">Most Played</a>
+		<a class="dropdown-item" href="/servers/private/">Private Servers</a>
+		<a class="dropdown-item" href="/servers/uptime/">Servers By Uptime</a>		<a class="dropdown-item" href="/servers/random/">Servers By Random</a>
+		<a class="dropdown-item" href="/countries/">Servers By Countries</a>
+		<a class="dropdown-item" href="/versions/">Servers By Versions</a>
+		<a class="dropdown-item" href="/server-ping/">Servers By Ping</a>		<a class="dropdown-item" href="/tags/">Servers By Tags</a>						<hr/>
+		<a class="dropdown-item" href="/your-server/">Register Your Server</a>
+	</div>
+</li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/login/" id="drop2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Login/Register</a>
+	<div class="dropdown-menu" aria-labelledby="drop2">
+		<a class="dropdown-item" href="/register/">Register</a>
+		<a class="dropdown-item" href="/login/">Login</a>
+		<a class="dropdown-item" href="/password-reset/">Password Reset</a>
+		<a class="dropdown-item" href="/activation/resend/">Resend Activation email</a>
+	</div>
+</li>
+<li class="nav-item "><a class="nav-link" href="/blog/">Blog</a></li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/help/" id="drop3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Help/FAQ</a>
+	<div class="dropdown-menu" aria-labelledby="drop3">
+		<a class="dropdown-item" href="/help/">Help/FAQ</a>
+		<a class="dropdown-item" href="/help/api/">API Documentation</a>
+		<a class="dropdown-item" href="/help/ping/">Ping FAQ</a>		<a class="dropdown-item" href="/servers/premium/faq/">Premium FAQ</a>		<a class="dropdown-item" href="/achievements/">Achievements</a>		<a class="dropdown-item" href="/servers/hosting/">Server Hosting</a>
+		<hr/>
+		<a class="dropdown-item" href="https://minecraft.net/" target="_blank">Get Minecraft Bedrock <i class="fa fa-arrow-circle-o-down"></i></a>		<a class="dropdown-item" href="https://www.minecraftforum.net/" target="_blank">Minecraft Bedrock Forum <i class="fa fa-comments"></i></a>		<a class="dropdown-item" href="https://minecraft.gamepedia.com/Bedrock_Edition" target="_blank">Minecraft Bedrock Wiki <i class="fa fa-info-circle"></i></a>	</div>
+</li>
+<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="/about/" id="drop4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+	<div class="dropdown-menu" aria-labelledby="drop4">
+		<a class="dropdown-item" href="/about/">About</a>
+		<a class="dropdown-item" href="/minecraft/">Minecraft</a>
+		<a class="dropdown-item" href="/stats/">Statistics</a>
+		<a class="dropdown-item" href="/partners/">Partners</a>
+	</div>
+</li>						<li class="nav-item dropdown"><a class="dropdown-toggle btn btn-listforge" href="#" id="dropdownlistforge" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-cogs"></i> Listforge&reg;</a>
+				<div class="dropdown-menu" aria-labelledby="dropdownlistforge">
+								<a class="dropdown-item" href="https://7daystodie-servers.com/" target="_blank">7 Days To Die</a>								<a class="dropdown-item" href="https://ark-servers.net/" target="_blank">ARK : Survival Evolved</a>								<a class="dropdown-item" href="https://arma3-servers.net/" target="_blank">Arma3</a>								<a class="dropdown-item" href="https://conan-exiles.com/" target="_blank">Conan Exiles</a>								<a class="dropdown-item" href="https://counter-strike-servers.net/" target="_blank">Counter Strike : Global Offensive</a>								<a class="dropdown-item" href="https://cubeworld-servers.com/" target="_blank">Cube World</a>								<a class="dropdown-item" href="https://dayz-servers.org/" target="_blank">DayZ</a>								<a class="dropdown-item" href="https://ecoservers.io/" target="_blank">ECO</a>								<a class="dropdown-item" href="https://empyrion-servers.com/" target="_blank">Empyrion</a>								<a class="dropdown-item" href="https://gmod-servers.com/" target="_blank">Garry's Mod</a>								<a class="dropdown-item" href="https://hurtworld-servers.net/" target="_blank">Hurtworld</a>								<a class="dropdown-item" href="https://hytale-servers.io/" target="_blank">Hytale</a>								<a class="dropdown-item" href="https://life-is-feudal.org/" target="_blank">Life is Feudal</a>								<a class="dropdown-item" href="https://minecraft-mp.com/" target="_blank">Minecraft</a>																<a class="dropdown-item" href="https://miscreated-servers.com/" target="_blank">Miscreated</a>								<a class="dropdown-item" href="https://reign-of-kings.net/" target="_blank">Reign of Kings</a>								<a class="dropdown-item" href="https://rust-servers.net/" target="_blank">Rust</a>								<a class="dropdown-item" href="https://space-engineers.com/" target="_blank">Space Engineers</a>								<a class="dropdown-item" href="https://squad-servers.com/" target="_blank">Squad</a>								<a class="dropdown-item" href="https://starbound-servers.net/" target="_blank">Starbound</a>								<a class="dropdown-item" href="https://tf2-servers.com/" target="_blank">Team Fortress 2</a>								<a class="dropdown-item" href="https://teamspeak-servers.org/" target="_blank">Teamspeak</a>								<a class="dropdown-item" href="https://terraria-servers.com/" target="_blank">Terraria</a>								<a class="dropdown-item" href="https://unturned-servers.net/" target="_blank">Unturned</a>								<a class="dropdown-item" href="https://vrising-servers.net/" target="_blank">V Rising</a>								<a class="dropdown-item" href="https://valheim-servers.io/" target="_blank">Valheim</a>								<a class="dropdown-item" href="https://wurm-unlimited.com/" target="_blank">Wurm Unlimited</a>								</div>
+			</li>
+					</ul>
+
+		<div class="d-xl-flex flex-xl-row-reverse flex-xl-wrap">
+			<form action="/search/" method="post" class="form-inline ml-2 my-2 my-xl-0">
+				<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" name="keyword">
+				<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+			</form>
+
+			<ul class="navbar-nav d-flex flex-row">
+								</li>
+												<li class="nav-item">
+					<a class="nav-link p-2" href="https://twitter.com/bedrock_servers" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
+				</li>
+											</ul>
+		</div>
+
+	</div>
+</nav>
+
+</div>
+
+<div class="d-none d-md-block">
+<div class="header">
+	<div class="container">
+		
+	</div>
+</div>
+</div>
+
+
+<div class="content">
+	<div class="container">
+
+		
+		
+				<div class="row">
+			<div class="col-12">
+				<div class="alert alert-info" role="alert"><a href="/servers/premium/" class="alert-link"><strong>Put your server at the top!</strong> Subscriptions to "Premium Option" are open.</a></div>
+			</div>
+		</div>
+		
+		
+		
+								<div class="row mb-2">
+			<div class="col-12">
+				<div id="topadspot" align="center">
+					<ins class="adsbygoogle"
+					style="display:inline-block;width:728px;height:100px"
+					data-ad-client="ca-pub-5285023748323139"
+					data-ad-slot="2702424961"></ins>
+					<script type="5bd876d288c64c61e8e6e92c-text/javascript">(adsbygoogle = window.adsbygoogle || []).push({});</script>
+				</div>
+			</div>
+		</div>
+						
+		<div class="row">
+			<div class="col-12">
+				<div class="d-none d-md-block">
+<nav aria-label="breadcrumb" role="navigation">
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item"><a href="/" class="text-dark">Servers</a></li>
+		<li class="breadcrumb-item active">Complex Gaming</li>
+	</ol>
+</nav>
+</div>
+
+
+<h1 class="text-break">Complex Gaming</h1>
+
+<div class="row">
+	<div class="col-12">
+		<video width="468" height="60" muted autoplay loop playsinline allowfullscreen="false"><source src="https://minecraftpocket-servers.com/server/120962/banner-120962-1686112634.mp4" type="video/mp4" /></video>	</div>
+</div>
+
+<div class="my-2">
+<div class="bg-light">
+	<a class="btn btn-success mr-1 my-1" role="button" href="/server/120962/vote/" title="Vote">Vote <i class="fa fa-thumbs-o-up fa-fw"></i></a>
+		<a class="btn btn-primary mx-1 my-1" href="minecraft://?addExternalServer=Complex Gaming|mps.mc-complex.com:19132" title="Connect"><i class="fa fa-gamepad fa-fw" aria-hidden="true"></i></a>
+			<a class="btn btn-dark mx-1 my-1 active" href="/server/120962/" title="Information"><i class="fa fa-info-circle fa-fw" aria-hidden="true"></i></a>
+	<a class="btn btn-dark mx-1 my-1" href="/server/120962/stats/" title="Statistics"><i class="fa fa-bar-chart-o fa-fw" aria-hidden="true"></i></a>
+	<a class="btn btn-dark mx-1 my-1" href="/server/120962/banners/" title="Banners"><i class="fa fa-picture-o fa-fw" aria-hidden="true"></i></a>
+	<a class="btn btn-dark mx-1 my-1" href="/server/120962/discussions/" rel="ugc" title="Discussions"><i class="fa fa-comments fa-fw" aria-hidden="true"></i></a>
+		<a class="btn btn-dark mx-1 my-1" href="/server/120962/ping/" title="Ping"><i class="fa fa-signal fa-fw" aria-hidden="true"></i></a>
+			<a class="btn btn-dark mx-1 my-1" href="/server/120962/favorites/add/" rel="nofollow" title="Add to Favorites"><i class="fa fa-heart fa-fw" aria-hidden="true"></i></a>
+		<a class="btn btn-warning ml-1 my-1" href="/ticket/add/?report=servers&id=120962&contactchoice=1" rel="nofollow" title="Report"><i class="fa fa-exclamation-triangle fa-fw" aria-hidden="true"></i></a>
+</div>
+</div>
+
+
+<div class="row">
+	<div class="col-12 col-md-7">
+		<table class="table table-bordered">
+			<thead class="thead-light">
+				<tr>
+					<th colspan="2"><i class="fa fa-info-circle"></i> Server Information</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td width="30%"><i class="fa fa-play"></i> <strong>Address</strong></td>
+					<td><strong>mps.mc-complex.com:19132</strong></td>
+				</tr>								<tr>
+					<td width="30%"><i class="fa fa-info-circle"></i> <strong>Hostname</strong></td>
+					<td><strong>---------[-  COMPLEX  GAMING  -]--------</strong></td>
+				</tr>
+								<tr>
+					<td width="30%" valign="top"><i class="fa fa-power-off"></i> <strong>Status</strong></td>
+					<td><button type="button" class="btn btn-success btn-sm">Online</button>					<strong><small>Checked 4 minutes ago</small></strong> 
+					</td>
+				</tr>				<tr>
+					<td width="30%"><i class="fa fa-group"></i> <strong>Players</strong></td>
+					<td><strong>
+											1341 / 1342										</strong></td>
+				</tr>
+								<tr>
+					<td><i class="fa fa-globe"></i> <strong>Location</strong></td>
+					<td><span class="flag-icon flag-icon-us"></span> <a href="/country/united-states-of-america/" class="text-dark">United States of America</a></td>
+				</tr>
+												<tr>
+					<td><i class="fa fa-cog"></i> <strong>Version</strong></td>
+					<td><a href="/version/1_20_0/" class="btn btn-info btn-sm" role="button">1.20.0</a></td>
+				</tr>
+																<tr>
+					<td><i class="fa fa-home"></i> <strong>Website</strong></td>
+					<td><a href="https://www.mc-complex.com/" target="_blank" rel="ugc" class="text-dark">https://www.mc-complex.com/</a></td>
+				</tr>
+																<tr>
+					<td><i class="fa fa-user"></i> <strong>Registered by</strong></td>
+					<td>frankcg</td>
+				</tr>
+								<tr>
+					<td><i class="fa fa-clock-o"></i> <strong>Registered since</strong></td>
+					<td>November 28th, 2022 01:47 PM EST</td>
+				</tr>
+								<tr>
+					<td><i class="fa fa-clock-o"></i> <strong>Last update</strong></td>
+					<td>June 6th, 2023 11:37 PM EST</td>
+				</tr>
+																								<tr>
+					<td valign="top"><i class="fa fa-tags"></i> <strong>Tag(s)</strong></td>
+					<td>
+										<a href="/tag/cross-play/" class="btn btn-secondary btn-sm mb-2" role="button">Cross-Play</a>
+										<a href="/tag/factions/" class="btn btn-secondary btn-sm mb-2" role="button">Factions</a>
+										<a href="/tag/lifesteal/" class="btn btn-secondary btn-sm mb-2" role="button">LifeSteal</a>
+										<a href="/tag/prison/" class="btn btn-secondary btn-sm mb-2" role="button">Prison</a>
+										<a href="/tag/raiding/" class="btn btn-secondary btn-sm mb-2" role="button">Raiding</a>
+										<a href="/tag/skyblock/" class="btn btn-secondary btn-sm mb-2" role="button">Skyblock</a>
+										<a href="/tag/survival/" class="btn btn-secondary btn-sm mb-2" role="button">Survival</a>
+										<a href="/tag/vanilla/" class="btn btn-secondary btn-sm mb-2" role="button">Vanilla</a>
+										</td>
+				</tr>
+											</tbody>
+		</table>
+
+		
+				<div class="d-block d-md-none mb-3">
+		<h3><i class="fa fa-share-alt"></i> Share This Server</h3>
+		<div class="addthis_inline_share_toolbox" data-url="https://minecraftpocket-servers.com/server/120962/" data-title=""></div>
+		</div>
+		
+				<div class="d-block d-md-none mb-3">
+		<div>
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-5285023748323139"
+				 data-ad-slot="1306155207"
+				 data-ad-format="auto"
+				 data-full-width-responsive="true"></ins>
+			<script type="5bd876d288c64c61e8e6e92c-text/javascript">(adsbygoogle = window.adsbygoogle || []).push({});</script>
+		</div>
+		</div>
+		
+				<h3><i class="fa fa-microphone"></i> Discord Server</h3>
+		<div id="discord_info"></div>
+		
+		
+		<div style="height: 20px;"></div>
+	</div>
+
+	<div class="col-12 col-md-5">
+		<table class="table table-bordered">
+			<thead class="thead-light">
+				<tr>
+					<th colspan="2"><i class="fa fa-bar-chart-o"></i> Statistics</th>
+				</tr>
+			</thead>
+			<tbody>
+								<tr>
+					<td width="40%"><i class="fa fa-signal"></i> <strong>Uptime</strong></td>
+					<td><button type="button" class="btn btn-sm btn-success">100%</button></td>
+				</tr>
+								<tr>
+					<td width="40%"><i class="fa fa-thumbs-o-up"></i> <strong>Vote(s)</strong></td>
+					<td>22649</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-list"></i> <strong>Rank</strong></td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-star"></i> <strong>Score</strong></td>
+					<td>35677</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-heart"></i> <strong>Favorited</strong></td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-comments"></i> <strong>Discussion(s)</strong></td>
+					<td>0</td>
+				</tr>
+			</tbody>
+		</table>
+
+				<div class="d-none d-md-block mt-3">
+		<h3><i class="fa fa-share-alt"></i> Share This Server</h3>
+		<div class="addthis_inline_share_toolbox" data-url="https://minecraftpocket-servers.com/server/120962/" data-title=""></div>
+		</div>
+		
+		
+				<div class="d-none d-md-block mt-3">
+		<div>
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-5285023748323139"
+				 data-ad-slot="1306155207"
+				 data-ad-format="auto"
+				 data-full-width-responsive="true"></ins>
+			<script type="5bd876d288c64c61e8e6e92c-text/javascript">(adsbygoogle = window.adsbygoogle || []).push({});</script>
+		</div>
+		</div>
+				
+
+	</div>
+</div>
+
+<div class="card bg-light mt-3 mb-3">
+	<div class="card-body">
+		<h3 class="card-title"><i class="fa fa-file-text-o"></i> About This Server</h3>
+		<div class="card-text">Complex Gaming [1.19] - We offer a wide range of gamemodes including, ★ Skyblock ★ Factions ★ Survival ★ Pixelmon ★ Prison ★ Creative ★ and MUCH MORE. Join today to experience your #1 Minecraft Server experience, with a friendly and welcoming community for all ★ EVENTS ★ ZERO LAG ★ DEDICATED STAFF ★</div>
+	</div>
+</div>
+
+
+
+
+
+
+							</div>
+		</div>
+	</div>
+
+</div>
+<div class="footer">
+	<div class="container">
+
+						<div class="row">
+			<div class="col-12 mb-3">
+				<div align="center">
+					<ins class="adsbygoogle"
+						 style="display:block"
+						 data-ad-client="ca-pub-5285023748323139"
+						 data-ad-slot="1306155207"
+						 data-ad-format="auto"
+						 data-full-width-responsive="true"></ins>
+					<script type="5bd876d288c64c61e8e6e92c-text/javascript">(adsbygoogle = window.adsbygoogle || []).push({});</script>
+				</div>
+			</div>
+		</div>
+				
+		<div class="row">
+			<div class="col-12">
+				<div class="row">
+	<div class="col-12 col-md-4 mt-3">
+	<p class="footer_title">FIND SERVERS BY</p>
+	<ul>
+		<li><a href="/search/">Search</a></li>
+		<li><a href="/servers/latest/">Latest</a></li>
+		<li><a href="/servers/updated/">Recently Updated</a></li>
+		<li><a href="/servers/wiped/">Recently Wiped</a></li>		<li><a href="/servers/players/">Most Played</a></li>
+		<li><a href="/servers/uptime/">Uptime</a></li>		<li><a href="/servers/random/">Random</a></li>
+		<li><a href="/countries/">Countries</a></li>
+		<li><a href="/versions/">Versions</a></li>
+		<li><a href="/server-ping/">Ping</a></li>		<li><a href="/tags/">Tags</a></li>					</ul>
+	</div>
+
+	<div class="col-12 col-md-4 mt-3">
+	<p class="footer_title">MINECRAFT BEDROCK LINKS</p>
+	<ul>
+		<li><a href="https://minecraft.net/" target="_blank">Minecraft Bedrock Website</a></li>
+		<li><a href="https://www.minecraftforum.net/" target="_blank">Minecraft Bedrock Forum</a></li>		<li><a href="https://minecraft.gamepedia.com/Bedrock_Edition" target="_blank">Minecraft Bedrock Wiki</a></li>		<li><a href="/servers/hosting/">Minecraft Bedrock Server Hosting</a></li>
+				<li><a href="https://bit.ly/38W5YiA" title="Monetize Your Minecraft Bedrock Server with Tebex" target="_blank">Monetize Your Server</a></li>
+		<li><a href="https://pmmp.io/" target="_blank">PocketMine</a></li>
+		<li><a href="https://nukkitx.com/" target="_blank">Nukkit</a></li>
+	</ul>
+	</div>
+
+	<div class="col-12 col-md-4 mt-3">
+	<p class="footer_title">MINECRAFTPOCKET-SERVERS.COM</p>
+	<ul>
+		<li><a href="/about/">About</a></li>
+		<li><a href="/stats/">Statistics</a></li>
+		<li><a href="/blog/">Blog</a></li>
+		<li><a href="/minecraft/">Minecraft</a></li>
+		<li><a href="/partners/">Partners</a></li>
+		<li><a href="/achievements/">Achievements</a></li>		<li><a href="/terms/">Terms Of Service</a></li>
+		<li><a href="/privacy/">Privacy Policy</a></li>
+	</ul>
+	</div>
+
+</div>
+<div class="row">
+	<div class="col-12 col-md-4 mt-3">
+	<p class="footer_title">LATEST SERVERS</p>
+	<ul>
+				<li><a href="/server/124494/">PeacefulSurvival S4</a></li>
+				<li><a href="/server/124493/">EnderGMS | NetWork</a></li>
+				<li><a href="/server/124492/">ZypiX Mc S1</a></li>
+				<li><a href="/server/124491/">Asvadia Network</a></li>
+				<li><a href="/server/124490/">ZALLMOD SMP</a></li>
+			</ul>
+	</div>
+
+	<div class="col-12 col-md-4 mt-3">
+	<p class="footer_title">LATEST ARTICLES</p>
+	<ul>
+				<li><a href="/blog/99/discussions-module-gdpr-and-new-anti-cheat-tools/">Discussions Module, GDPR And New Anti-Cheat Tools</a></li>
+				<li><a href="/blog/98/minecraft-bedrock-140/">Minecraft Bedrock 1.4.0</a></li>
+				<li><a href="/blog/97/minecraft-bedrock-1213/">Minecraft Bedrock 1.2.13</a></li>
+				<li><a href="/blog/96/minecraftpocket-serverscom-will-support-enjin-coin/">MinecraftPocket-Servers.com Will Support Enjin Coin</a></li>
+				<li><a href="/blog/95/minecraft-125-with-windows-mixed-reality/">Minecraft 1.2.5 With Windows Mixed Reality</a></li>
+			</ul>
+	</div>
+
+	<div class="col-12 col-md-4 mt-3">
+	<p class="footer_title">PARTNERS</p>
+	<ul>
+		<li><a href="https://www.pingperfect.com/aff.php?aff=83&page=pocket-minecraft" target="_blank">PingPerfect</a></li>
+		<li><a href="https://bit.ly/38W5YiA" target="_blank">Tebex</a></li>
+		<li><a href="https://pmmp.io/" target="_blank">PocketMine</a></li>
+	</ul>
+	</div>
+
+
+</div>			</div>
+		</div>
+
+		<div style="height: 30px;"></div>
+
+		<div class="row">
+			<div class="col-12">
+				<center><div style="background: #333333; height: 1px; width: 90%;"></div></center>
+			</div>
+		</div>
+
+		<div style="height: 30px;"></div>
+
+
+		<div class="row">
+
+				<div class="col-12 col-md-6">
+
+					
+					<p>Copyright &copy; 2023 <a href="https://listforge.net/" target="_blank">Listforge</a>&reg;<br/>
+					
+					<small><em>Minecraft Bedrock and associated Minecraft Bedrock images are copyright of Mojang AB.</em></small><br/>
+					<small><em>MinecraftPocket-Servers.com is not affiliated with Minecraft Bedrock and Mojang AB.</em></small>
+					
+					</p>
+
+				</div>
+
+				<div class="col-12 col-md-6 pull-right">
+
+					<div align="right">
+						Tracking: <span class="footer_highlight">1632 servers</span><br/>
+						Version: <span class="footer_highlight">1.19.2</span><br/>
+						<a href="/legal/">Legal Notice</a>
+					</div>
+					
+				</div>
+				<div class="clearfix"></div>
+					
+		</div>
+
+
+
+	</div>
+
+</div>
+<script type="5bd876d288c64c61e8e6e92c-text/javascript" src="/assets/js/jquery-3.6.0.min.js"></script>
+<script type="5bd876d288c64c61e8e6e92c-text/javascript" src="/assets/js/popper.min.js"></script>
+<script type="5bd876d288c64c61e8e6e92c-text/javascript" src="/assets/js/bootstrap.min.js"></script>
+<script type="5bd876d288c64c61e8e6e92c-text/javascript" src="/assets/js/clipboard.min.js"></script>
+<script type="5bd876d288c64c61e8e6e92c-text/javascript" src="/assets/js/main-1.19.2.js"></script>
+<script type="5bd876d288c64c61e8e6e92c-module" src="/assets/js/lite-youtube.js"></script>
+
+<script type="5bd876d288c64c61e8e6e92c-text/javascript">
+window.lazyLoadOptions = {
+
+};
+</script>
+
+<script type="5bd876d288c64c61e8e6e92c-text/javascript">
+<!--
+$(document).ready(function(){
+getDiscordState("111919658499653632", 120962, "discord_info");
+});
+//-->
+</script>
+
+<script type="5bd876d288c64c61e8e6e92c-text/javascript">
+
+
+
+function CookieAccepted(){
+	$('#privacysettings-notice').hide();
+	$('#vote-loading-block').hide();
+	$('#adblock-notice').hide();
+	$('#vote-form-block').show();
+}
+
+function CookieRejected(){
+	$('#privacysettings-notice').show();
+	$('#vote-loading-block').hide();
+	$('#adblock-notice').hide();
+	$('#vote-form-block').hide();
+}
+
+$(document).ready(function(){
+	var clipboard = new ClipboardJS('.clipboard');
+});
+
+$(window).on('load', function (e) {
+
+	if (typeof CookieScript === 'undefined'){
+		CookieAccepted();
+	}else{
+
+		var cookiestatus = CookieScript.instance.currentState();
+		
+		if (cookiestatus.action == "accept"){CookieAccepted();}
+		if (cookiestatus.action == "reject"){CookieRejected();}
+		if (!cookiestatus.action){CookieRejected();}
+	}
+
+	CookieScript.instance.onAcceptAll = function () { 
+         CookieAccepted();
+    }
+
+	CookieScript.instance.onAccept = function () { 
+		document.location.reload(false);
+    }
+
+	CookieScript.instance.onReject = function () { 
+         document.location.reload(false);
+    }	
+
+	var adScript = document.createElement('script');
+	adScript.setAttribute('type', 'text/plain');
+	adScript.setAttribute('data-cookiescript', 'accepted');
+	adScript.setAttribute('crossorigin', 'anonymous');
+	adScript.setAttribute('async', true);
+	adScript.setAttribute('src', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5285023748323139');
+	document.body.appendChild(adScript);
+
+});
+
+
+	
+</script>
+
+<script type="text/plain" data-cookiescript="accepted" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5abf8825b954a901"></script><script type="5bd876d288c64c61e8e6e92c-text/javascript" charset="UTF-8" src="//eu.cookie-script.com/s/b171196551effeb42085eee98bcb9010.js"></script><script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js" type="5bd876d288c64c61e8e6e92c-text/javascript"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="5bd876d288c64c61e8e6e92c-|49" defer=""></script></body>
+</html>

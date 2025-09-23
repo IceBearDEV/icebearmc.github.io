@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="general-icon-e1776.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>HyperBuzz Network</title>
+</head>
+<style>
+header {
+ 
+    box-shadow: 0px 0px 5px black
+    width: 100vw;
+    height: 25px;
+    padding: 15px 0;
+    padding-top: 18px;
+    --border: black;
+    --top-border: #27ce40;
+    --bottom-border: #9e9a99;
+    box-shadow: 0 -3px 0 0 var(--top-border),0 3px 0 0 var(--bottom-border),-5px 0 0 0 #9e9a99,3px 0 0 0 #9e9a99,-2px -5px 0 0 var(--border),2px -5px 0 0 var(--border),-5px -2px 0 0 var(--border),5px -2px 0 0 var(--border),-2px 5px 0 0 var(--border),2px 5px 0 0 var(--border),-5px 2px 0 0 var(--border),5px 2px 0 0 var(--border);
+
+}
+    
+i {
+    margin-top: -85vw;
+    margin-left: 40vw;
+    color: white;
+    text-shadow: -1px -1px 0 #000,1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Minecraft";
+    scrollbar-color: #474747 #292929;
+}
+@font-face {
+    font-family: "MinecraftTen";
+    src: url(MinecraftTen.otf);
+}
+@font-face {
+    font-family: "Minecraft";
+    src: url(MinecraftSeven.otf);
+}
+.button {
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#3B8526,#3B8526);
+   /* border: 0;*/
+    font-family: "MinecraftTen";
+    color: #fff;
+    padding: .6rem 2rem 1rem;
+    font-size: 2rem;
+    margin: 4px;
+    height: 15px;
+    width: 1px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-weight: 100;
+    font-style: normal;
+    border: 2px solid #5E9A4F;
+    text-shadow: 0 3px 0 rgba(0,0,0,.25882352941176473);
+    box-shadow: 0px 5px 0px #1F5013;
+    /*--border: black;
+    --top-border: #27ce40;
+    --bottom-border: #064d2a;
+    -webkit-user-select: none;
+    user-select: none;
+    box-shadow: 0 -3px 0 0 var(--top-border),0 3px 0 0 var(--bottom-border),-3px 0 0 0 #0c6e3d,3px 0 0 0 #0c6e3d,-2px -5px 0 0 var(--border),2px -5px 0 0 var(--border),-5px -2px 0 0 var(--border),5px -2px 0 0 var(--border),-2px 5px 0 0 var(--border),2px 5px 0 0 var(--border),-5px 2px 0 0 var(--border),5px 2px 0 0 var(--border);*/
+}
+
+.button2{
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#D0D1D4,#D0D1D4);
+   /* border: 0;*/
+    font-family: "MinecraftTen";
+    color: black;
+    padding: .6rem 2rem 1rem;
+    font-size: 25px;
+    margin: 4px;
+    height: 10px;
+    width: 285px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-weight: 100;
+    font-style: normal;
+    border: 2px solid #BEBFC0;
+    text-shadow: 0 3px 0 rgba(0,0,0,.25882352941176473);
+    box-shadow: 0px 5px 0px #5A5A5C;
+}
+.button3{
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#48494B,#48494B);
+   /* border: 0;*/
+    font-family: "MinecraftTen";
+    color: white;
+    padding: .6rem 2rem 1rem;
+    font-size: 20px;
+    margin: 4px;
+    height: 10px;
+    width: 40px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-weight: 100;
+    font-style: normal;
+    border: 2px solid #6D6D6B;
+    text-shadow: 0 3px 0 rgba(0,0,0,.25882352941176473);
+    box-shadow: 0px 5px 0px #303231;
+}
+.button4{
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#48494B,#48494B);
+   /* border: 0;*/
+    font-family: "MinecraftTen";
+    color: white;
+    padding: .6rem 2rem 1rem;
+    font-size: 20px;
+    margin: 4px;
+    height: 10px;
+    width: 40px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-weight: 100;
+    font-style: normal;
+    border: 2px solid #6D6D6B;
+    text-shadow: 0 3px 0 rgba(0,0,0,.25882352941176473);
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+.button:active{
+    box-shadow: none;
+    top: 5px;
+    transform: translateY(5px);
+}
+
+.button2:active{
+    color: white;
+    background: linear-gradient(#3B8526,#3B8526);
+    border: 2px solid #5E9A4F;
+    box-shadow: none;
+    top: 5px;
+    transform: translateY(5px);
+}
+.button3:active{
+    box-shadow: none;
+    top: 5px;
+    transform: translateY(5px);
+}
+.header {
+    background-color: #f2f0f0;
+    box-shadow: 0px 0px 5px black;
+    color: white;
+    width: 100vw;
+    height: 25px;
+    padding: 15px 0;
+    padding-top: 18px;
+    --border: black;
+    --top-border: #27ce40;
+    --bottom-border: #9e9a99;
+    box-shadow: 0 -3px 0 0 var(--top-border),0 3px 0 0 var(--bottom-border),-5px 0 0 0 #9e9a99,3px 0 0 0 #9e9a99,-2px -5px 0 0 var(--border),2px -5px 0 0 var(--border),-5px -2px 0 0 var(--border),5px -2px 0 0 var(--border),-2px 5px 0 0 var(--border),2px 5px 0 0 var(--border),-5px 2px 0 0 var(--border),5px 2px 0 0 var(--border);
+}
+.background {
+    position: absolute;
+    background-image: url("Test.jpg");
+    background-size: cover;
+    background-position: 50%;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+.fill {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.482);
+}
+.logo {
+    color: black;
+    font-size: 25px;
+    margin-left: 10vw;
+    margin-top: 0vw;
+}
+.icon {
+    margin-top: -6vw;
+    margin-left: 2vw;
+}
+.back{
+    margin-top: -11vw;
+    margin-left: -10vw;
+    width: 25px;
+    height: 25px;
+}
+.newsimg{
+    margin-top: -125px;
+    margin-left: -25px;
+    height: 140px;
+    width: 140px;
+    border: 3px solid black;
+}
+.newstitle{
+    margin-top: -125px;
+    margin-left: 0px;
+    font-family: "MinecraftTen";
+    color: black;
+}
+.newsdesc{
+    color: black;
+    /*font-family: "MinecraftSeven";*/
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: -300px;
+}
+.BG{
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background: linear-gradient(#f2f0f0,#f2f0f0);
+    border: 2px solid #9e9a99;
+    font-family: "MinecraftTen";
+    color: #fff;
+    padding: .6rem 2rem 1rem;
+    font-size: 2rem;
+    margin: 4px;
+    height: 275px;
+    width: 275px;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-weight: 100;
+    font-style: normal;
+    text-shadow: 0 3px 0 rgba(0,0,0,.25882352941176473);
+    /*--border: black;
+    --top-border: #27ce40;
+    --bottom-border: #064d2a;
+    -webkit-user-select: none;
+    user-select: none;
+    box-shadow: 0 -3px 0 0 var(--top-border),0 3px 0 0 var(--bottom-border),-3px 0 0 0 #0c6e3d,3px 0 0 0 #0c6e3d,-2px -5px 0 0 var(--border),2px -5px 0 0 var(--border),-5px -2px 0 0 var(--border),5px -2px 0 0 var(--border),-2px 5px 0 0 var(--border),2px 5px 0 0 var(--border),-5px 2px 0 0 var(--border),5px 2px 0 0 var(--border); */
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+.button-group {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.button-group1 {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.right {
+    margin-left: 20px;
+}
+.mc-logo {
+    max-width: 800px;
+    width: 800px;
+}
+.desc {
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-size: x-large;
+    margin-top: 50px;
+}
+/* For Mobile*/
+    @media screen and (max-width: 540px) {
+    .button {
+    margin-top: 10px;
+    min-width: 80vw;
+    font-size: 1.5rem;
+}
+.button::after {
+    color: transparent;
+    text-shadow: none;
+    content: "\n";
+}
+.right {
+    margin-left: 0;
+}
+.mc-logo {
+    width: 90vw;
+}
+.button-group, .button-group1 {
+    margin-top: 20px;
+}
+.desc {
+    margin-top: 20px;
+}
+.container {
+    top: 52.5%;
+}
+}
+/* For Tablets*/
+    @media screen and (min-width: 540px) and (max-width: 780px) {
+    .view {
+    width: 600px;
+}
+}
+</style>
+<body>
+    <div class="background">
+        <div class="fill"></div>
+    </div>
+    <div class="header">
+        <p class="logo">
+            HyperBuzz
+        </p>
+        <div class="icon">
+            <img src="general-icon-e1776.png">
+        </div>
+    </div>
+    <div class="container">
+        <img class="mc-logo" src="title.png" alt="minecraft-logo">
+        <p class="desc">
+            HyperBuzz adalah server Minecraft Bedrock dengan fitur yang menarik
+        </p>
+        <div class="button-group">
+            <a href="minecraft://?addExternalServer=Complex%20Gaming|mps.mc-complex.com:19132" class="button">Play</a>
+            <a href="https://minecraftpocket-servers.com/server/120962/vote/" class="button2">Vote</a>
+            <a href="News.html" class="button2 s">News</a><br>
+        </div>
+        <div class="button-group1">
+            <a href="https://discord.gg" class="button2 i">Discord</a>
+            <a href="https://chat.whatsapp.com/BTfudtbdUptBELMQbDVxJb" class="button2 d">WhatsApp</a>
+        </div>
+        <p class="desc">
+            © HyperBuzz
+        </p>
+    </div>
+</body>
+</html>
